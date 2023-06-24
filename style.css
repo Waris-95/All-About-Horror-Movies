@@ -1,0 +1,133 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    background-image: url('file:///Users/ladi/All-About-Horror-Movies/1f25540ad2e0c3d47652f17103f407ec.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav.bar {
+    background-color: #ffffff;
+    padding: 10px;
+    color: white;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 20px;
+    color: white;
+}
+
+.navbar li a {
+    font-size: 16px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url('file:///Users/ladi/All-About-Horror-Movies/200w.gif');
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(125, 2, 2);
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    background-clip: text;
+    color: rgb(125, 2, 2);
+}
+
+section {
+    margin-bottom: 40px;
+    text-align: center;
+} 
+
+.image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom:  5px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+}
+
+input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4a0202;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+} Leaving this one out for exploring other options as well */
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.image-grid img {
+    max-width: 100px;
+    height: auto;
+}
+
+.image-label {
+    display: block;
+    margin-top: 10px;
+    color: #ff0000;
+}

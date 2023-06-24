@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>All About Horror Movies</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>All About Horror Movies</h1>
+    </header>
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="submission.html">Movie Submission</a></li>
+            <li><a href="topmovies.html">Top Horror Movies</a></li>
+            <li><a href="gallery.html">Movie Gallery</a></li>
+        </ul>
+    </nav>
+   <main>
+    <form>
+        <fieldset>
+            <legend>Submit a Horror Movie</legend>
+            <br>
+            <br>
+            
+            <label for="title">Movie Title:</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="director">Director:</label>
+        <input type="text" id="director" name="director" required>
+        
+        <label for="year">Release Year:</label>
+        <input type="text" id="year" name="year" required>
+        
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea>
+        
+        <label for="category">Category:</label>
+        <input type="checkbox" id="category" name="category" value="classic"> Classic
+        <input type="checkbox" id="category" name="category" value="recent"> Recent
+        
+        <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+   </main>
+</body>
